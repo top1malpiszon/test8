@@ -42,6 +42,17 @@
             border-radius: 50%;
             object-fit: cover;
             box-shadow: 0 0 0 4px #FFD700, 0 0 20px 8px rgba(255, 215, 0, 0.7);
+            animation: pulse-glow 1.5s infinite alternate;
+        }
+
+        @keyframes pulse-glow {
+            from {
+                box-shadow: 0 0 0 4px #FFD700, 0 0 20px 8px rgba(255, 215, 0, 0.7);
+            }
+
+            to {
+                box-shadow: 0 0 0 4px #FFD700, 0 0 10px 4px rgba(255, 215, 0, 0.4);
+            }
         }
 
         .profile-name {
@@ -435,7 +446,7 @@
                     <img src="images/casehug2.png" alt="case icon">
                 </div>
                 <div class="link-text">
-                    <p class="link-title">CASEHUG - 1$ I 20% BONUSU PRZY WPŁACIE</p>
+                    <p class="link-title">CASEHUG - 1$ I 20% BONUSu PRZY WPŁACIE</p>
                     <div class="subtitle-container">
                         <p class="link-subtitle red-code-text">Kod: MCRAFTOR</p>
                         <button class="copy-button" data-code="MCRAFTOR">
